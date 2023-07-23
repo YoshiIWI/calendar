@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>mission5-2</title>
+    <style>
+        th, td {
+            border: 1px solid black;    /*セルの枠線*/
+            padding: 10px;                  /*セルの空白部分？*/
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <caption id="caption_calendar"></caption>
+        <br>
+        <thead id="head_calendar"></thead>
+        <tbody id="body_calendar"></tbody>
+    </table>
+    <br>
+    <div align="center">
+        <button onclick="update(-1)" style="width: 70px;height: 30px;">←</button>
+        <button onclick="update(1)" style="width: 70px;height: 30px;">→</button>
+    </div>
+    <script src = "mission5-2.js"></script>
+</body>
+</html>
